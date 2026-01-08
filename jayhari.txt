@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jay Hari Properties</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      background: white;
+      margin: 10px 15px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #1e3a8a;
+    }
+    .services li {
+      margin: 8px 0;
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    a {
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 8px;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-size: 18px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      z-index: 999;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jay Hari Properties</h1>
+  <p>Your Trusted Real Estate Consultant in Ravet</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    Jay Hari Properties is a local real estate agency helping clients buy, sell,
+    and rent residential & commercial properties in & around Ravet, Pimpri-Chinchwad.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <ul class="services">
+    <li>🏠 Property Buying & Selling</li>
+    <li>🏢 Commercial Property Deals</li>
+    <li>🔑 Rental & Lease Support</li>
+    <li>📄 Property Documentation Guidance</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p><strong>📍 Location:</strong> Galaxy Rd, Ravet, Pimpri-Chinchwad, Maharashtra 412101, India</p>
+  <p><strong>📞 Phone:</strong> +91 XXXXXXXXXX</p>
+  <p><strong>📧 Email:</strong> contact@jayhariproperties.com</p>
+</section>
+
+<section>
+  <h2>Find Us on Map</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=18.6573998,73.7403289&hl=en&z=16&output=embed" 
+    allowfullscreen>
+  </iframe>
+</section>
+
+<footer>
+  <p>© 2026 Jay Hari Properties | All Rights Reserved</p>
+</footer>
+
+<!-- WhatsApp Chat Button -->
+<a href="https://wa.me/9146323930" target="_blank" class="whatsapp-button">
+  💬 Chat on WhatsApp
+</a>
+
+</body>
+</html>
